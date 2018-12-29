@@ -1,0 +1,25 @@
+{
+  "name": "hypernova-plugin-server-stacktrace",
+  "description": "Hypernova plugin for logging a stack trace when the server fails to render components",
+  "version": "0.1.0",
+  "author": "Yuichi Goto",
+  "bugs": {
+    "url": "https://github.com/yasaichi/hypernova-plugin-server-stacktrace/issues"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "homepage": "https://github.com/yasaichi/hypernova-plugin-server-stacktrace",
+  "keywords": [
+    "hypernova"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yasaichi/hypernova-plugin-server-stacktrace.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
