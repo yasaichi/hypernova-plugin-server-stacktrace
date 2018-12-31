@@ -41,6 +41,7 @@
     "build:js": "tsc",
     "clean": "rimraf dist",
     "lint": "tslint --project tsconfig.json",
+    "prepublishOnly": "run-s lint test build",
     "test": "jest"
   },
   "types": "dist/index.d.ts"
