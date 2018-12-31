@@ -44,6 +44,7 @@
     "build": "run-s clean build:*",
     "build:js": "tsc",
     "clean": "rimraf dist",
+    "coverage": "jest --coverage",
     "lint": "tslint --project tsconfig.json",
     "prepublishOnly": "run-s lint test build",
     "test": "jest"
