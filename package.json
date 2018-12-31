@@ -23,6 +23,10 @@
   "engines": {
     "node": ">= 0.10"
   },
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "homepage": "https://github.com/yasaichi/hypernova-plugin-server-stacktrace",
   "keywords": [
     "hypernova"
