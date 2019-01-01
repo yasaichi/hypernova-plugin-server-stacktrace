@@ -25,7 +25,8 @@
   },
   "files": [
     "dist",
-    "package.json"
+    "package.json",
+    "README.md"
   ],
   "homepage": "https://github.com/yasaichi/hypernova-plugin-server-stacktrace",
   "keywords": [
