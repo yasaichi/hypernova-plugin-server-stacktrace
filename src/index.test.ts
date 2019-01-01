@@ -1,5 +1,5 @@
 import { logger } from 'hypernova/server';
-import plugin from '.';
+import ServerStacktracePlugin from '.';
 
 describe('plugin.onError(_context: any, err: Error)', () => {
   const dummyContext = {};
@@ -10,7 +10,7 @@ describe('plugin.onError(_context: any, err: Error)', () => {
   });
 
   it('should log a stack trace of the error', () => {
-    plugin.onError(dummyContext, new Error());
+    new ServerStacktracePlugin().onError(dummyContext, new Error());
     expect(logSpy).toBeCalledTimes(1);
   });
 
