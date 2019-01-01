@@ -24,7 +24,9 @@
     "node": ">= 6"
   },
   "files": [
+    "CHANGELOG.md",
     "dist",
+    "MIT-LICENSE",
     "package.json",
     "README.md"
   ],
